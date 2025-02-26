@@ -1,0 +1,44 @@
+# Ignore Maven target directory (compiled files)
+target/
+
+# Ignore IntelliJ IDEA, Eclipse, and VS Code IDE-specific files
+*.iml
+.idea/
+*.class
+*.log
+.vscode/
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build files
+build/
+out/
+
+# Ignore logs
+logs/
+*.log
+!src/main/resources/*.log
+
+# Ignore Spring Boot application.properties (if credentials are included)
+src/main/resources/application.properties
+
+# Ignore node_modules (if frontend is later added)
+node_modules/
+
+# Ignore Python Virtual Environment (if AI model scripts exist)
+venv/
+__pycache__/
+
+# Ignore PostgreSQL data (if using embedded DB)
+data/
+*.db
+
+# Ignore .env files (if storing secrets)
+.env
+
+# Ignore JAR/WAR files
+*.jar
+*.war
