@@ -22,9 +22,6 @@ logs/
 *.log
 !src/main/resources/*.log
 
-# Ignore Spring Boot application.properties (if credentials are included)
-src/main/resources/application.properties
-
 # Ignore node_modules (if frontend is later added)
 node_modules/
 
